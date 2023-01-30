@@ -12,3 +12,18 @@ let edad = 0;
 console.log(
   "se llama " + nombre + " se apellida " + apellidos + " su edad es de " + edad
 );
+
+//ejercicio 2
+let usuario = "marta";
+let contraseña = "1234";
+
+function validar() {
+  let usuarioIngresado = prompt("ingrese su usuario");
+  let constraingresada = prompt("ingrese su contraseña");
+  if (usuarioIngresado == usuario && constraingresada == contraseña) {
+    console.log("Correcto!");
+  } else {
+    alert("los datos son incorrectos!");
+  }
+}
+validar();
