@@ -14,7 +14,7 @@ console.log(
 );
 
 //ejercicio 2
-let usuario = "marta";
+/*let usuario = "marta";
 let contraseña = "1234";
 
 function validar() {
@@ -26,4 +26,38 @@ function validar() {
     alert("los datos son incorrectos!");
   }
 }
-validar();
+validar();*/
+
+//ejercicio 3
+function dolar(peso) {
+  let dolar = peso * 170;
+  return dolar;
+}
+
+// ejercicio 4
+
+/*function parOimpar() {
+  let numero = prompt("ingrese un numero");
+  if (numero % 2 == 0) {
+    alert("el numero es par");
+  } else {
+    alert("el numero es impar");
+  }
+}
+parOimpar();*/
+
+//ejercicio 5
+
+function promedio() {
+  let count = 0;
+  let result = 0;
+  console.log("cuenta: " + count + "resultado: " + result);
+  while (count < 2) {
+    let num1 = prompt("ingrese un numero");
+    result += num1;
+    count++;
+  }
+  return count / result;
+}
+
+promedio();
