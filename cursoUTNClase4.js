@@ -23,3 +23,5 @@ let conjuntoEtiqueta = document.getElementsByClassName("padre");
 //me trae el primer elemento que encuentre
 
 //console.dir => me da informacion del nodo para poder alterarlas
+let boton = document.getElementById("boton");
+boton.style.fontSize = "25px";
