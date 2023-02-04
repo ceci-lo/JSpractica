@@ -31,9 +31,20 @@ let eliminaAzul = () => {
 };
 
 //EJERCICIO 3
-var mascotas = ["perro", "gato", "peces"];
+let mascotas = () => {
+  var mascotas = ["perro", "gato", "peces"];
 
-mascotas.push("canario");
-console.log(mascotas[0]); // primer elemento del array
-console.log(mascotas.length); //el ultimo elemento del array tiene indice 3
-console.log(mascotas);
+  mascotas.push("canario");
+  console.log(mascotas[0]); // primer elemento del array
+  console.log(mascotas.length); //el ultimo elemento del array tiene indice 3
+  console.log(mascotas);
+};
+
+// EJERCICIO 4
+let imprimirNombres = () => {
+  let nombres = ["ana", "mary", "cora", "elena", "susan"];
+
+  for (let index = 0; index < nombres.length; index++) {
+    console.log(nombres[index]);
+  }
+};
