@@ -61,3 +61,23 @@ let sumaArray = () => {
 
   return suma;
 };
+
+// EJERCICIO 6
+
+let nombre = ["Juan", "Pedro", "Ana", "Maria", "Wally", "Sofia"];
+
+nombre.indexOf("Wally"); //indice 4
+
+function mostrarNombre() {
+  for (let index = 0; index < nombre.length; index++) {
+    console.log("indice: " + index + " Nombre: " + nombre[index]);
+  }
+}
+
+function mostrarAWally() {
+  for (let index = 0; index < nombre.length; index++) {
+    if (nombre[index] == "Wally") {
+      console.log("Wally esta en el indice " + index);
+    }
+  }
+}
