@@ -48,3 +48,16 @@ let imprimirNombres = () => {
     console.log(nombres[index]);
   }
 };
+
+//EJERCICIO 5
+
+let sumaArray = () => {
+  let numeros = [2, 3, 45, 100, 50];
+  let suma = 0;
+
+  for (let index = 0; index < numeros.length; index++) {
+    suma += numeros[index];
+  }
+
+  return suma;
+};
