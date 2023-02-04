@@ -17,3 +17,15 @@ let listaSuper = () => {
   }
   return console.log("Lista Super" + listaSuper);
 };
+
+//EJERCICIO 2
+let eliminaAzul = () => {
+  let colores = ["amarillo", "verde", "azul", "naranja", "celeste"];
+
+  for (let index = 0; index < colores.length; index++) {
+    const element = colores[index];
+    if (element == "azul") {
+      colores.splice(index, 1);
+    }
+  }
+};
