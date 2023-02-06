@@ -80,19 +80,3 @@ let validacionAdmiClient = () => {
     console.log("datos incorrectos");
   }
 };
-
-//Ejemplo para crear un elemento en el body
-// se inserta al cierre del elemento padre
-// var titulo = document.getElementById("cuerpo");
-// var textoNuevo = document.createElement("h2");
-// titulo.appendChild(textoNuevo);
-
-// // crear elemento en un lugar en especifico del dom
-// var titulo1 = document.getElementById("titulo");
-// var texto1 = document.querySelector("#parrafo");
-// var textoNuevo2 = document.createElement("p");
-// titulo1.insertBefore(textoNuevo2, texto1);
-// textoNuevo2.textContent = "soy un nuevo elemento";
-
-// titulo1.classList.toggle("tituloh1"); // le agrega el nombre de la clase al nodo
-// titulo1.style.color = "blue"; // para cambiar el css del nodo
